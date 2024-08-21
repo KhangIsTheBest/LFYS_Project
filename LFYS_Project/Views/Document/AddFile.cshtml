@@ -1,7 +1,7 @@
 ﻿@using LFYS_Project.Models;
 @{
     WlfysProjContext _context = new WlfysProjContext();
-    var categories = _context.Categories.ToList();
+    var documents = _context.Documents.ToList();
 }
 <!-- Hỗ trợ trình biên soạn -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-alpha/dist/katex.min.css">
@@ -22,11 +22,11 @@
     <div class="form-group mb-4">
         <label for="courseSelect">Chọn khóa học:</label>
         <select class="form-control" id="courseSelect" required>
-            <option value="">Chọn khóa học</option>
+            <option value="">Chọn tài liệu</option>
             @{
-                foreach(var category in categories)
+                foreach (var document in documents)
                 {
-                    <option value="@category.CategoryId">@category.CategoryName</option>
+                    <option value="@document.CategoryId">@document.Title</option>
                 }
             }
 
@@ -109,13 +109,13 @@
     document.getElementById('submitBtn').addEventListener('click', function () {
         var title = document.getElementById('title').value;
         var content = quill.root.innerHTML;
-        var selectedCourse = document.getElementById('courseSelect').value;
+        var selectedDocument = document.getElementById('courseSelect').value;
         alert(content);
         // Gửi dữ liệu đến controller (sử dụng AJAX)
         $.ajax({
-            url: '/Document/Upload',  // Đường dẫn đến controller và action của bạn
+            url: '/Document/AddFile',  // Đường dẫn đến controller và action của bạn
             type: 'POST',
-            data: { title: title, content: content, selectedCourse: selectedCourse },
+            data: { title: title, content: content, selectedDocument: selectedDocument },
             success: function (response) {
                 alert('Nội dung đã được gửi thành công!');
             },

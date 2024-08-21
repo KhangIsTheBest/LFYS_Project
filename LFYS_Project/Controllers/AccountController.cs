@@ -48,7 +48,7 @@ namespace LFYS_Project.Controllers
                 {
                     Name = model.Name,
                     Email = model.Email,
-                    UserName = model.Email,
+                    UserName = model.Name,
                     Address = model.Address
                 };
                 var result = await userManager.CreateAsync(user, model.Password!);
@@ -82,6 +82,11 @@ namespace LFYS_Project.Controllers
                 return NotFound();
             }
 
+            return View(user);
+        }
+        public async Task<IActionResult> UserInfoAsync()
+        {
+            var user = await userManager.GetUserAsync(User);
             return View(user);
         }
     }

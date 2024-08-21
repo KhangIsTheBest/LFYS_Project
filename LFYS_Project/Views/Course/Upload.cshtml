@@ -1,4 +1,7 @@
-﻿@{
+﻿@using LFYS_Project.Models
+@{
+    WlfysProjContext _context = new WlfysProjContext();
+    var categories = _context.Categories.ToList();
 }
 <div class="container mt-5">
     <h1 class="text-center mb-4">Thêm Khóa Học</h1>
@@ -12,11 +15,15 @@
     </div>
     <div class="form-group mb-4">
         <label for="courseCategory">Chọn Danh Mục:</label>
-        <select class="form-control" id="courseCategory" required>
-            <option value="">Chọn danh mục</option>
-            <option value="category1">Danh mục 1</option>
-            <option value="category2">Danh mục 2</option>
-            <option value="category3">Danh mục 3</option>
+        <select class="form-control" id="courseSelect" required>
+            <option value="">Chọn Danh Mục</option>
+            @{
+                foreach (var category in categories)
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            }
+
         </select>
     </div>
     <div class="form-group mb-4">
@@ -45,7 +52,7 @@
     document.getElementById('addCourseBtn').addEventListener('click', function () {
         var courseName = document.getElementById('courseName').value;
         var courseDescription = document.getElementById('courseDescription').value;
-        var courseCategory = document.getElementById('courseCategory').value;
+        var courseCategory = document.getElementById('courseSelect').value;
         var isFree = document.getElementById('isFree').checked ? 1 : 0;
         var price = parseFloat(document.getElementById('price').value) || 0;
         var discount = parseInt(document.getElementById('discount').value) || 0;
@@ -58,10 +65,10 @@
 
         // Tạo FormData để gửi dữ liệu đến server
         var formData = new FormData();
-        formData.append('course_name', courseName);
+        formData.append('courseName', courseName);
         formData.append('description', courseDescription);
-        formData.append('category_id', courseCategory);
-        formData.append('is_free', isFree);
+        formData.append('courseSelected', courseCategory);
+        formData.append('isFree', isFree);
         formData.append('price', price);
         formData.append('discount', discount);
         formData.append('courseAvt', courseAvt); // Thêm file ảnh vào FormData
@@ -76,13 +83,13 @@
             success: function (response) {
                 alert('Khóa học đã được thêm thành công!');
                 // Xóa form sau khi gửi
-                document.getElementById('courseName').value = '';
-                document.getElementById('courseDescription').value = '';
-                document.getElementById('courseCategory').value = '';
-                document.getElementById('isFree').checked = false;
-                document.getElementById('price').value = '';
-                document.getElementById('discount').value = '';
-                document.getElementById('courseAvt').value = '';
+                // document.getElementById('courseName').value = '';
+                // document.getElementById('courseDescription').value = '';
+                // document.getElementById('courseCategory').value = '';
+                // document.getElementById('isFree').checked = false;
+                // document.getElementById('price').value = '';
+                // document.getElementById('discount').value = '';
+                // document.getElementById('courseAvt').value = '';
             },
             error: function (xhr, status, error) {
                 console.error(error);

@@ -39,7 +39,7 @@
             <h3 class="mb-4" id="document-title">Nội Dung Mục Tài Liệu</h3>
             <div id="document-body">
                 <!-- Nội dung của mục tài liệu đầu tiên -->
-                <p>@fileDocs[0].FileContent</p>
+                <p>@Model.Description</p>
             </div>
         </div>
     </div>
@@ -69,7 +69,5 @@
             $('#document-title').text($(this).find('.card-title').text());
         });
 
-        // Hiển thị nội dung đầu tiên khi trang được tải
-        $('.list-group-item').first().click();
     });
 </script>

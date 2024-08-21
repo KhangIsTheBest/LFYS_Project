@@ -15,6 +15,18 @@ public partial class WlfysProjContext : DbContext
     {
     }
 
+    public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
+
+    public virtual DbSet<AspNetRoleClaim> AspNetRoleClaims { get; set; }
+
+    public virtual DbSet<AspNetUser> AspNetUsers { get; set; }
+
+    public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
+
+    public virtual DbSet<AspNetUserLogin> AspNetUserLogins { get; set; }
+
+    public virtual DbSet<AspNetUserToken> AspNetUserTokens { get; set; }
+
     public virtual DbSet<Badge> Badges { get; set; }
 
     public virtual DbSet<Category> Categories { get; set; }
@@ -33,8 +45,6 @@ public partial class WlfysProjContext : DbContext
 
     public virtual DbSet<Notification> Notifications { get; set; }
 
-    public virtual DbSet<User> Users { get; set; }
-
     public virtual DbSet<UserBadge> UserBadges { get; set; }
 
     public virtual DbSet<Video> Videos { get; set; }
@@ -45,9 +55,76 @@ public partial class WlfysProjContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<AspNetRole>(entity =>
+        {
+            entity.HasIndex(e => e.NormalizedName, "RoleNameIndex")
+                .IsUnique()
+                .HasFilter("([NormalizedName] IS NOT NULL)");
+
+            entity.Property(e => e.Name).HasMaxLength(256);
+            entity.Property(e => e.NormalizedName).HasMaxLength(256);
+        });
+
+        modelBuilder.Entity<AspNetRoleClaim>(entity =>
+        {
+            entity.HasIndex(e => e.RoleId, "IX_AspNetRoleClaims_RoleId");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.AspNetRoleClaims).HasForeignKey(d => d.RoleId);
+        });
+
+        modelBuilder.Entity<AspNetUser>(entity =>
+        {
+            entity.HasIndex(e => e.NormalizedEmail, "EmailIndex");
+
+            entity.HasIndex(e => e.NormalizedUserName, "UserNameIndex")
+                .IsUnique()
+                .HasFilter("([NormalizedUserName] IS NOT NULL)");
+
+            entity.Property(e => e.Email).HasMaxLength(256);
+            entity.Property(e => e.Name).HasMaxLength(100);
+            entity.Property(e => e.NormalizedEmail).HasMaxLength(256);
+            entity.Property(e => e.NormalizedUserName).HasMaxLength(256);
+            entity.Property(e => e.UserName).HasMaxLength(256);
+
+            entity.HasMany(d => d.Roles).WithMany(p => p.Users)
+                .UsingEntity<Dictionary<string, object>>(
+                    "AspNetUserRole",
+                    r => r.HasOne<AspNetRole>().WithMany().HasForeignKey("RoleId"),
+                    l => l.HasOne<AspNetUser>().WithMany().HasForeignKey("UserId"),
+                    j =>
+                    {
+                        j.HasKey("UserId", "RoleId");
+                        j.ToTable("AspNetUserRoles");
+                        j.HasIndex(new[] { "RoleId" }, "IX_AspNetUserRoles_RoleId");
+                    });
+        });
+
+        modelBuilder.Entity<AspNetUserClaim>(entity =>
+        {
+            entity.HasIndex(e => e.UserId, "IX_AspNetUserClaims_UserId");
+
+            entity.HasOne(d => d.User).WithMany(p => p.AspNetUserClaims).HasForeignKey(d => d.UserId);
+        });
+
+        modelBuilder.Entity<AspNetUserLogin>(entity =>
+        {
+            entity.HasKey(e => new { e.LoginProvider, e.ProviderKey });
+
+            entity.HasIndex(e => e.UserId, "IX_AspNetUserLogins_UserId");
+
+            entity.HasOne(d => d.User).WithMany(p => p.AspNetUserLogins).HasForeignKey(d => d.UserId);
+        });
+
+        modelBuilder.Entity<AspNetUserToken>(entity =>
+        {
+            entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name });
+
+            entity.HasOne(d => d.User).WithMany(p => p.AspNetUserTokens).HasForeignKey(d => d.UserId);
+        });
+
         modelBuilder.Entity<Badge>(entity =>
         {
-            entity.HasKey(e => e.BadgeId).HasName("PK__Badge__E7989656D00D235F");
+            entity.HasKey(e => e.BadgeId).HasName("PK__Badge__E79896565B42CD93");
 
             entity.ToTable("Badge");
 
@@ -65,7 +142,7 @@ public partial class WlfysProjContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__Category__D54EE9B448E430AA");
+            entity.HasKey(e => e.CategoryId).HasName("PK__Category__D54EE9B46FA96101");
 
             entity.ToTable("Category");
 
@@ -77,7 +154,7 @@ public partial class WlfysProjContext : DbContext
 
         modelBuilder.Entity<CategoryExercise>(entity =>
         {
-            entity.HasKey(e => e.CeId).HasName("PK__Category__DD9025CDA8A59C7D");
+            entity.HasKey(e => e.CeId).HasName("PK__Category__DD9025CD3DA5AE69");
 
             entity.ToTable("CategoryExercise");
 
@@ -87,16 +164,16 @@ public partial class WlfysProjContext : DbContext
 
             entity.HasOne(d => d.Category).WithMany(p => p.CategoryExercises)
                 .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK__CategoryE__categ__778AC167");
+                .HasConstraintName("FK__CategoryE__categ__571DF1D5");
 
             entity.HasOne(d => d.Exercise).WithMany(p => p.CategoryExercises)
                 .HasForeignKey(d => d.ExerciseId)
-                .HasConstraintName("FK__CategoryE__exerc__787EE5A0");
+                .HasConstraintName("FK__CategoryE__exerc__5812160E");
         });
 
         modelBuilder.Entity<CategoryOfExercise>(entity =>
         {
-            entity.HasKey(e => e.CoeId).HasName("PK__Category__93E65D001E710CB9");
+            entity.HasKey(e => e.CoeId).HasName("PK__Category__93E65D0058AE185D");
 
             entity.ToTable("CategoryOfExercise");
 
@@ -108,7 +185,7 @@ public partial class WlfysProjContext : DbContext
 
         modelBuilder.Entity<Course>(entity =>
         {
-            entity.HasKey(e => e.CourseId).HasName("PK__Course__8F1EF7AED99E5679");
+            entity.HasKey(e => e.CourseId).HasName("PK__Course__8F1EF7AE684909C3");
 
             entity.ToTable("Course");
 
@@ -127,20 +204,18 @@ public partial class WlfysProjContext : DbContext
             entity.Property(e => e.Discount).HasColumnName("discount");
             entity.Property(e => e.IsFree).HasColumnName("is_free");
             entity.Property(e => e.Price).HasColumnName("price");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("user_id");
 
             entity.HasOne(d => d.Category).WithMany(p => p.Courses)
                 .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK__Course__category__6754599E");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Courses)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Course__user_id__68487DD7");
+                .HasConstraintName("FK__Course__category__4222D4EF");
         });
 
         modelBuilder.Entity<Document>(entity =>
         {
-            entity.HasKey(e => e.DocumentId).HasName("PK__Document__9666E8AC43F29900");
+            entity.HasKey(e => e.DocumentId).HasName("PK__Document__9666E8ACDA890976");
 
             entity.ToTable("Document");
 
@@ -160,20 +235,18 @@ public partial class WlfysProjContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("user_id");
 
             entity.HasOne(d => d.Category).WithMany(p => p.Documents)
                 .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK__Document__catego__5535A963");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Documents)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Document__user_i__5441852A");
+                .HasConstraintName("FK__Document__catego__4BAC3F29");
         });
 
         modelBuilder.Entity<Exercise>(entity =>
         {
-            entity.HasKey(e => e.ExerciseId).HasName("PK__Exercise__C121418EF4F5647B");
+            entity.HasKey(e => e.ExerciseId).HasName("PK__Exercise__C121418E6CE0F035");
 
             entity.ToTable("Exercise");
 
@@ -193,16 +266,14 @@ public partial class WlfysProjContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Exercises)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Exercise__user_i__74AE54BC");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("user_id");
         });
 
         modelBuilder.Entity<FileDocument>(entity =>
         {
-            entity.HasKey(e => e.FiledocId).HasName("PK__FileDocu__6070B1A89C157B42");
+            entity.HasKey(e => e.FiledocId).HasName("PK__FileDocu__6070B1A8B1833062");
 
             entity.ToTable("FileDocument");
 
@@ -217,12 +288,12 @@ public partial class WlfysProjContext : DbContext
 
             entity.HasOne(d => d.Document).WithMany(p => p.FileDocuments)
                 .HasForeignKey(d => d.DocumentId)
-                .HasConstraintName("FK__FileDocum__docum__6FE99F9F");
+                .HasConstraintName("FK__FileDocum__docum__4E88ABD4");
         });
 
         modelBuilder.Entity<Notification>(entity =>
         {
-            entity.HasKey(e => e.NotificationId).HasName("PK__Notifica__E059842F62BBEACA");
+            entity.HasKey(e => e.NotificationId).HasName("PK__Notifica__E059842FEAFF73E2");
 
             entity.ToTable("Notification");
 
@@ -234,49 +305,14 @@ public partial class WlfysProjContext : DbContext
             entity.Property(e => e.Message)
                 .HasMaxLength(255)
                 .HasColumnName("message");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Notifications)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Notificat__user___403A8C7D");
-        });
-
-        modelBuilder.Entity<User>(entity =>
-        {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370F3EB7A837");
-
-            entity.Property(e => e.UserId).HasColumnName("user_id");
-            entity.Property(e => e.AvatarUrl)
-                .HasMaxLength(255)
-                .HasColumnName("avatar_url");
-            entity.Property(e => e.CreatedAt)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime")
-                .HasColumnName("created_at");
-            entity.Property(e => e.Email)
-                .HasMaxLength(100)
-                .HasColumnName("email");
-            entity.Property(e => e.FullName)
-                .HasMaxLength(100)
-                .HasColumnName("full_name");
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .HasColumnName("password");
-            entity.Property(e => e.Role)
-                .HasMaxLength(50)
-                .HasColumnName("role");
-            entity.Property(e => e.UpdatedAt)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime")
-                .HasColumnName("updated_at");
-            entity.Property(e => e.Username)
-                .HasMaxLength(50)
-                .HasColumnName("username");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("user_id");
         });
 
         modelBuilder.Entity<UserBadge>(entity =>
         {
-            entity.HasKey(e => e.UserbadgeId).HasName("PK__UserBadg__B0DE4084117CEE19");
+            entity.HasKey(e => e.UserbadgeId).HasName("PK__UserBadg__B0DE4084FCE2C30D");
 
             entity.ToTable("UserBadge");
 
@@ -286,20 +322,18 @@ public partial class WlfysProjContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("awarded_at");
             entity.Property(e => e.BadgeId).HasColumnName("badge_id");
-            entity.Property(e => e.UserId).HasColumnName("user_id");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("user_id");
 
             entity.HasOne(d => d.Badge).WithMany(p => p.UserBadges)
                 .HasForeignKey(d => d.BadgeId)
-                .HasConstraintName("FK__UserBadge__badge__46E78A0C");
-
-            entity.HasOne(d => d.User).WithMany(p => p.UserBadges)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__UserBadge__user___45F365D3");
+                .HasConstraintName("FK__UserBadge__badge__3D5E1FD2");
         });
 
         modelBuilder.Entity<Video>(entity =>
         {
-            entity.HasKey(e => e.VideoId).HasName("PK__Video__E8F11E107C8BF2FB");
+            entity.HasKey(e => e.VideoId).HasName("PK__Video__E8F11E10F957D0B7");
 
             entity.ToTable("Video");
 
@@ -325,7 +359,7 @@ public partial class WlfysProjContext : DbContext
 
             entity.HasOne(d => d.Course).WithMany(p => p.Videos)
                 .HasForeignKey(d => d.CourseId)
-                .HasConstraintName("FK__Video__course_id__6D0D32F4");
+                .HasConstraintName("FK__Video__course_id__46E78A0C");
         });
 
         OnModelCreatingPartial(modelBuilder);

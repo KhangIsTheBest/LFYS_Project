@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Identity
+@using LFYS_Project.Models
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -61,8 +65,26 @@
                     </div>
                 </div>
                 <a href="~/Contest/Index" class="nav-item nav-link">Cuộc thi</a>
+                
+                
             </div>
-            <a href="~/Account/Login" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Bắt đầu ngay<i class="fa fa-arrow-right ms-3"></i></a>
+            @{
+                if (User.Identity.IsAuthenticated)
+                {
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">@User.Identity.Name</a>
+                        <div class="dropdown-menu bg-light m-0">
+                            <a href="~/Account/UserInfo/@User.Identity.Name" class="dropdown-item">Chi tiết</a>
+                            <a href="~/Account/Logout" class="dropdown-item">Đăng xuất</a>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <a href="~/Account/Login" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Bắt đầu ngay<i class="fa fa-arrow-right ms-3"></i></a>
+                }
+            }
+            
         </div>
     </nav>
     <!-- Navbar End -->

@@ -21,11 +21,9 @@ public partial class Course
 
     public string? Avt { get; set; }
 
-    public int? UserId { get; set; }
+    public string? UserId { get; set; }
 
     public virtual Category? Category { get; set; }
-
-    public virtual User? User { get; set; }
 
     public virtual ICollection<Video> Videos { get; set; } = new List<Video>();
 }

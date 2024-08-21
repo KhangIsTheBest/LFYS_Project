@@ -1,8 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model LFYS_Project.Models.AppUser
 <style>
     .account-info {
         margin-top: 20px;
@@ -76,9 +72,9 @@
                 <div class="card-body">
                     <div class="text-center">
                         <img src="https://via.placeholder.com/120" alt="Avatar" class="avatar" id="avatar-detail">
-                        <h5 id="name-detail">Nguyễn Văn A</h5>
-                        <p id="email-detail">nguyenvana@example.com</p>
-                        <p id="phone-detail">0123456789</p>
+                        <h5 id="name-detail">@Model.UserName</h5>
+                        <p id="email-detail">@Model.Email</p>
+                        <p id="phone-detail">@Model.PhoneNumber</p>
                     </div>
                     <table class="table table-bordered">
                         <tbody>

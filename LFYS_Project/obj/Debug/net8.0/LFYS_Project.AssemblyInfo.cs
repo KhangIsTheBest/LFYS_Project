@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LFYS_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1c37ea22701db383581eb40738fe3229826baa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+207fc31280c272731b6bf3787deb8226fb27968e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LFYS_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LFYS_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

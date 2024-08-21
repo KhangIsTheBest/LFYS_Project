@@ -17,11 +17,9 @@ public partial class Document
 
     public DateTime? UpdatedAt { get; set; }
 
-    public int? UserId { get; set; }
+    public string? UserId { get; set; }
 
     public virtual Category? Category { get; set; }
 
     public virtual ICollection<FileDocument> FileDocuments { get; set; } = new List<FileDocument>();
-
-    public virtual User? User { get; set; }
 }
