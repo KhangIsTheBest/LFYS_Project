@@ -1,0 +1,297 @@
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\appsettings.Development.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\appsettings.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.staticwebassets.runtime.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.exe
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.deps.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.runtimeconfig.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.pdb
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.AssemblyInfoInputs.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.AssemblyInfo.cs
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.csproj.CoreCompileInputs.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.MvcApplicationPartsAssemblyInfo.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.RazorAssemblyInfo.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.RazorAssemblyInfo.cs
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.LFYS_Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.LFYS_Project.props
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LFYS_Project.props
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LFYS_Project.props
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\bundle\LFYS_Project.styles.css
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\projectbundle\LFYS_Project.bundle.scp.css
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\refint\LFYS_Project.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.pdb
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.genruntimeconfig.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\ref\LFYS_Project.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Azure.Core.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Azure.Identity.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Humanizer.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.CodeDom.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Memory.Data.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Text.Json.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.csproj.AssemblyReference.cache
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Pro.3849EDC7.Up2Date
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Owin.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\DoAnMonHoc\Đồ án cơ sở KTPM\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.MvcApplicationPartsAssemblyInfo.cs
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\appsettings.Development.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\appsettings.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.staticwebassets.runtime.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.exe
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.deps.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.runtimeconfig.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\LFYS_Project.pdb
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Azure.Core.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Azure.Identity.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Humanizer.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.AspNetCore.Owin.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.CodeDom.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Memory.Data.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Text.Json.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.csproj.AssemblyReference.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.AssemblyInfoInputs.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.AssemblyInfo.cs
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.csproj.CoreCompileInputs.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.MvcApplicationPartsAssemblyInfo.cs
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.MvcApplicationPartsAssemblyInfo.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.RazorAssemblyInfo.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.RazorAssemblyInfo.cs
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.sourcelink.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.build.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.development.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.LFYS_Project.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.build.LFYS_Project.props
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LFYS_Project.props
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LFYS_Project.props
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\bundle\LFYS_Project.styles.css
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\scopedcss\projectbundle\LFYS_Project.bundle.scp.css
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Pro.3849EDC7.Up2Date
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\refint\LFYS_Project.dll
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.pdb
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\LFYS_Project.genruntimeconfig.cache
+D:\DoAnMonHoc\LFYS_Project\LFYS_Project\obj\Debug\net8.0\ref\LFYS_Project.dll
