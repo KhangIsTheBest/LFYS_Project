@@ -1,4 +1,8 @@
 ﻿@using LFYS_Project.Models;
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.EntityFrameworkCore;
+@inject UserManager<AppUser> UserManager
+@model IEnumerable<AppUser>
 @{
     ViewData["Title"] = "Trang chủ";
     WlfysProjContext _context = new WlfysProjContext();
@@ -8,6 +12,7 @@
     var countExercise = _context.Exercises.ToList().Count();
     var courses = _context.Courses.Take(3).ToList();
     var documents = _context.Documents.Take(3).ToList();
+
 }
 
     <!-- Carousel Start -->
@@ -253,7 +258,27 @@
                 <h1 class="display-6 mb-4">Chúng tôi luôn mang đến cho bạn những điều tuyệt vời nhất</h1>
             </div>
             <div class="row g-0 team-items">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            @{
+                foreach(var creater in Model)
+                {
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="~/img/team-1.jpg" alt="">
+                                <div class="team-social text-center">
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href="@creater.Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href="@creater.Youtube"><i class="fab fa-youtube"></i></a>
+                                    <a class="btn btn-square btn-outline-primary border-2 m-1" href="@creater.Instagram"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">@creater.Name</h5>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+                @* <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
                             <img class="img-fluid" src="~/img/team-1.jpg" alt="">
@@ -316,7 +341,7 @@
                             <span>Trainer</span>
                         </div>
                     </div>
-                </div>
+                </div> *@
             </div>
         </div>
     </div>

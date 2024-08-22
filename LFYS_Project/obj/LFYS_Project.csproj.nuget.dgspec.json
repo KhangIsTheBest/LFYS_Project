@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Khang\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj": {}
+    "D:\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Khang\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj": {
+    "D:\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Khang\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj",
+        "projectUniqueName": "D:\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj",
         "projectName": "LFYS_Project",
-        "projectPath": "D:\\Code\\Khang\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj",
-        "packagesPath": "C:\\Users\\LAPTOP\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Khang\\LFYS_Project\\LFYS_Project\\obj\\",
+        "projectPath": "D:\\LFYS_Project\\LFYS_Project\\LFYS_Project.csproj",
+        "packagesPath": "C:\\Users\\pdkha\\.nuget\\packages\\",
+        "outputPath": "D:\\LFYS_Project\\LFYS_Project\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\pdkha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
