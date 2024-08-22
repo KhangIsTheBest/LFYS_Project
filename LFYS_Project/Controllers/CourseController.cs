@@ -6,8 +6,8 @@ using System.Reflection.Metadata;
 
 namespace LFYS_Project.Controllers
 {
-    [Route("Course")]
-    [Authorize]
+    //[Route("Course")]
+    //[Authorize]
     public class CourseController : Controller
     {
         private readonly WlfysProjContext _context = new WlfysProjContext();
@@ -16,24 +16,25 @@ namespace LFYS_Project.Controllers
         {
             this.userManager = userManager;
         }
-        [HttpGet("Index")]
+        //[HttpGet("Index")]
         public IActionResult Index()
         {
             var courses = _context.Courses.ToList();
             return View(courses);
         }
-        [HttpGet("Detail")]
-        public IActionResult Detail(int id = 0)
+
+        public IActionResult Detail(int id)
         {
             var course = _context.Courses.Find(id);
             return View(course);
         }
-        [HttpGet("Upload")]
+        //[HttpGet("Upload")]
         public IActionResult Upload()
         {
             return View();
         }
-        [HttpPost("Add")]
+        //[HttpPost("Add")]
+        [HttpPost]
         public async Task<IActionResult> Add([FromForm] string courseName, [FromForm]  string description, [FromForm] string courseSelected, string isFree, [FromForm] string price, [FromForm] string discount, IFormFile courseAvt)
         {
             if (ModelState.IsValid) 
@@ -53,7 +54,7 @@ namespace LFYS_Project.Controllers
             }
             return BadRequest();
         }
-        [HttpGet("Video")]
+        //[HttpGet("Video")]
 
         public IActionResult Video(int id = 0)
         {
@@ -61,7 +62,8 @@ namespace LFYS_Project.Controllers
             return View(video);
         }
 
-        [HttpPost("AddVideo")]
+        //[HttpPost("AddVideo")]
+        [HttpPost]
         public async Task<IActionResult> AddVideo([FromForm] IFormFile videoUrl, [FromForm] string title, [FromForm] string description, [FromForm] string courseId)
         {
             if (ModelState.IsValid)

@@ -1,11 +1,14 @@
 ﻿@using LFYS_Project.Models;
 @model LFYS_Project.Models.Course
-@if (Model == null) return;
+@* @if (Model == null) return;
 else
-{
+{ *@
+    @{
+
      ViewData["Title"] = Model.CourseName;
      WlfysProjContext _context = new WlfysProjContext();
      var videos = _context.Videos.Where(v => v.CourseId == Model.CourseId).ToList();
+    }
 
     <style>
         body {
@@ -159,4 +162,4 @@ else
             <!-- Repeat Video Cards as needed -->
         </div>
     </div>
-}
+
