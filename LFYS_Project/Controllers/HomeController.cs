@@ -1,4 +1,5 @@
 using LFYS_Project.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,15 +8,19 @@ namespace LFYS_Project.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly UserManager<AppUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, UserManager<AppUser> userManager)
         {
             _logger = logger;
+            _userManager = userManager;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var createrUsers = await _userManager.GetUsersInRoleAsync("Creater");
+            createrUsers = createrUsers.Take(2).ToList();
+            return View(createrUsers);
         }
         public IActionResult About()
         {

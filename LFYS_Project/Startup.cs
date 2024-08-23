@@ -82,13 +82,7 @@ namespace LFYS_Project
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
-            app.UseEndpoints(endpoints =>
-        {
-          endpoints.MapControllerRoute(
-            name : "areas",
-            pattern : "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-          );
-        });
+
             CreateRoles(serviceProvider).Wait();
         }
 
@@ -96,7 +90,7 @@ namespace LFYS_Project
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-            string[] roleNames = { "Admin", "User", "Manager" };
+            string[] roleNames = { "Admin", "User", "Managers" };
             IdentityResult roleResult;
 
             foreach (var roleName in roleNames)
@@ -126,6 +120,7 @@ namespace LFYS_Project
                     await userManager.AddToRoleAsync(powerUser, "Admin");
                 }
             }
+
         }
     }
 }

@@ -58,7 +58,7 @@ using (var scope = app.Services.CreateScope())
 app.Run();
 async Task SeedRolesAndAdminUserAsync(RoleManager<IdentityRole> roleManager, UserManager<AppUser> userManager)
 {
-    string[] roleNames = { "Admin", "User" };
+    string[] roleNames = { "Admin", "User", "Creater" };
 
     foreach (var roleName in roleNames)
     {
@@ -83,6 +83,25 @@ async Task SeedRolesAndAdminUserAsync(RoleManager<IdentityRole> roleManager, Use
         if (createAdminResult.Succeeded)
         {
             await userManager.AddToRoleAsync(admin, "Admin");
+        }
+    }
+    for(int i = 0; i < 4; i++)
+    {
+        var creater = await userManager.FindByEmailAsync("creater"+i+"@example.com");
+        if (creater == null)
+        {
+            var admin = new AppUser
+            {
+                UserName = "creater" + i,
+                Email = "creater" + i + "@example.com",
+                Name = "creater" + i,
+                Address = "Creater Address"
+            };
+            var createAdminResult = await userManager.CreateAsync(admin, "Creater@123");
+            if (createAdminResult.Succeeded)
+            {
+                await userManager.AddToRoleAsync(admin, "Creater");
+            }
         }
     }
 }

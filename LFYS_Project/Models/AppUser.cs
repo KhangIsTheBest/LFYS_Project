@@ -10,5 +10,18 @@ namespace LFYS_Project.Models
         [Required]
         public string? Name { get; set; }
         public string? Address { get; set; }
+        [StringLength(200)]
+        [MaxLength(200)]
+        [Required]
+        public string? Facebook {  get; set; }
+        [StringLength(200)]
+        [MaxLength(200)]
+        public string? Youtube { get; set; }
+        [StringLength(200)]
+        [MaxLength(200)]
+        public string? Instagram { get; set; }
+        [StringLength(200)]
+        [MaxLength(200)]
+        public string? Avatar { get; set; }
     }
 }
